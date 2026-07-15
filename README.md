@@ -16,6 +16,22 @@ Command
 
 ## **โครงสร้างมาตรฐาน (Project Structure) ที่ dbt สร้างขึ้น**
 
+**Folder Structure**
+```text
+northwindDW_duckdb/
+    analyses/
+    macros/
+    models/
+        example/
+    seeds/
+    snapshots/
+    tests/
+    dbt_project.yml
+    README.md
+    dev.duckdb
+    logs/
+```
+
 เป็นระบบตามแนวทางของ Analytics Engineering โดยแต่ละโฟลเดอร์มีหน้าที่แตกต่างกันดังนี้:
 
     1. seeds/ (ตารางข้อมูลอ้างอิง)
